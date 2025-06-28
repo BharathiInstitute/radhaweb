@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MainApp());
 }
-
+//flutter application
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
@@ -28,6 +28,15 @@ class MainApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 18,
                   color: Colors.blue,
+                ),
+              ),
+              SizedBox(height: 20), // Added spacing
+              Text(
+                'Let\'s build something amazing!',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.green,
+                  fontStyle: FontStyle.italic,
                 ),
               ),
             ],
