@@ -6,7 +6,7 @@ void main() {
 //flutter application
 class MainApp extends StatelessWidget {
   const MainApp({super.key});//webdevp
-
+//website
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -37,6 +37,14 @@ class MainApp extends StatelessWidget {
                   fontSize: 16,
                   color: Colors.green,
                   fontStyle: FontStyle.italic,
+                ),
+              ),
+              SizedBox(height: 20), // Added spacing
+              Text(
+                'This is your new Flutter text!',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.purple,
                 ),
               ),
             ],
